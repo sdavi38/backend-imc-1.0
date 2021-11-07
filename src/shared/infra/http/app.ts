@@ -1,4 +1,4 @@
-
+import 'dotenv/config';
 import '../typeorm';
 
 import express, { Request, Response, NextFunction } from 'express';
