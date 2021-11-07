@@ -1,4 +1,4 @@
-import 'dotenv/config';
+
 import '../typeorm';
 
 import express, { Request, Response, NextFunction } from 'express';
@@ -10,6 +10,8 @@ import AppError from '@shared/errors/AppError';
 import routes from './routes';
 
 import '@shared/container';
+
+
 
 const app = express();
 
