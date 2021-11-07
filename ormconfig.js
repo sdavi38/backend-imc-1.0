@@ -24,7 +24,7 @@ const development = {
   url: '',
   username: 'postgres',
   password: '1199',
-  database: 'imc-db',
+  database: 'api-imc',
   entities: ['./src/modules/**/infra/typeorm/entities/*.ts'],
   migrations: ['./src/shared/infra/typeorm/migrations/*.ts'],
   cli: {
